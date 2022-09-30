@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <title>Survey Form</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+
+    <h1 id="title">My Survey Form</h1>
+
+    <p id=description>Fruit Survey</p>
+
+    <form id="survey-form">
+
+      <fieldset>
+
+        <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+
+        
+
+        <label for="email" id="email-label">Email <input id="email" type="email" placeholder="Enter your Email" required></label>
+
+        
+
+        <label for="age" id="number-label">Age <input id="number" type="number" placeholder="Enter your age" min="1" max="100"></label>
+
+      <fieldset>
+
+         <label for="fruits" id="fruit-label">What is your Favorite fruit</label>
+
+    
+
+           <select id="dropdown">
+
+              <option value="apple">Select one</option>
+
+             <option value="apple">Apples</option>
+
+           <option value="orange">Oranges</option>
+
+           <option value="mango">Mangoes</option>
+
+           <options value="others">Others</option>
+
+
+
+         </select>
+
+         </fieldset>
+
+           <fieldset>
+
+             <label>Do you Love Apples?</label>
+
+           <label for="fruit"><input type=radio name="fruits" value="YES" id="fruit">Yes</label>
+
+        <label for="fruit1" ><input type=radio name="fruits" value="No" id="fruit1">No</label>
+
+        <label for="fruit2" >
+
+          <input type=radio name="fruits" value="Never" id="fruit2">Never</label>   
+
+           
+
+    </fieldset>
+
+    <fieldset>       <label>Choose your favorite tropical fruit:</label>
+
+           <label for="check"><input type="checkbox" value="tropical" id="check">Mango</label>
+
+           <label for="check1"><input type="checkbox" value="tropical" id="check1">Papaya</label>
+
+           <label for="check2"><input type="checkbox" value="tropical" id="check2">Coconut</label>
+
+           <label for="check3"><input type="checkbox" value="tropical" id="check3">Melon</label>
+
+      </fieldset>
+
+          <fieldset> <label for="comment">Add any extra fruits you like: </label>
+
+          <textarea placeholder="Add the fruits here" id="comment" name="comment"></textarea>
+
+         </fieldset>
+
+         <button id="submit" type="submit" value="submit">Submit</button>
+
+
+
+   </form>
+
+  </body>
+
+
+
+</html>
+
