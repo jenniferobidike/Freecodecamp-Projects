@@ -1,5 +1,5 @@
 # Freecodecamp-Projects
-Projects I completed while going through Freecodecamp's curriculum. 
+Projects I built while going through Freecodecamp's curriculum. 
 ## Responsive Web Design
 1. Built a Tribute page - [View on Codepen](https://codepen.io/jenniferobidike/pen/MWGqzMX)
 2. Built a Survey Form - [View on Codepen](https://codepen.io/jenniferobidike/pen/yLjRJNV)
