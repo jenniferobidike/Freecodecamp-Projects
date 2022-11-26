@@ -1,7 +1,10 @@
 *,
+
 *::before,
+
 *::after {
-box-sizing: inherit;
+
+  box-sizing: inherit;
 
 }
 
@@ -91,7 +94,7 @@ h1 {
 
 h2{
 
-  font-size: 2rem;
+  font-size: 2.3rem;
 
 }
 
@@ -129,7 +132,7 @@ img {
 
   width: 100%;
 
-  background: black;
+  background: #be1558;
 
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 
@@ -169,11 +172,11 @@ img {
 
   display: block;
 
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 
   padding: 1.1rem;
 
-  color: white;
+  color: #fff;
 
 
 
@@ -181,7 +184,7 @@ img {
 
 .nav-list a:hover {
 
-  background: #ffbf80;
+  background: #e75874;
 
 }
 
@@ -201,13 +204,17 @@ img {
 
   color: #fff;
 
-  background-color: #663300;
+  margin-top: 2rem;
+
+  background-color: #322514;
 
 }
 
 .welcome-section > p{
 
-   color: #fff2e6
+   color: #fff;
+
+  font-size: 1.7rem;
 
 }
 
@@ -217,9 +224,9 @@ img {
 
   text-align: center;
 
-  padding: 10rem 2rem;
+  padding: 4rem 2rem;
 
-  background:  #ffbf80;
+  background:  #be1558;
 
 }
 
@@ -229,7 +236,7 @@ img {
 
   margin: 0 auto 6rem auto;
 
-  border-bottom: 0.15rem solid #000;
+  border-bottom: 0.2rem solid #000;
 
 }
 
@@ -281,7 +288,7 @@ img {
 
 .project {
 
-  background: #663300;
+  background: #522314;
 
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 
@@ -291,7 +298,7 @@ img {
 
 .code {
 
-  color: #663300;
+  color: #522314;
 
   transition: color 0.3s ease-out;
 
@@ -299,7 +306,7 @@ img {
 
 .project:hover .code {
 
-  color: #ffbf80;
+  color: #e75874;
 
 }
 
@@ -337,7 +344,7 @@ img {
 
   font-size: 1.2rem;
 
-  background:  #663300;
+  background:  #522314;
 
   transition: background 0.3s ease-out;
 
@@ -347,7 +354,7 @@ img {
 
 .btn-show-all:hover {
 
-  background: orange;
+  background: #e75874;
 
 }
 
@@ -381,11 +388,11 @@ img {
 
   width: 100%;
 
-  height: 60vh;
+  height: 100vh;
 
-  padding: 0 2rem;
+  padding: 4rem 2rem;
 
-  background:  #663300;
+  background:  #522314;
 
 }
 
@@ -419,7 +426,7 @@ img {
 
   color: #fff;
 
-  fo
+  
 
 }
 
@@ -447,7 +454,7 @@ img {
 
   transition: transform 0.3s ease-out;
 
-  color: orange;
+  color: #fff;
 
 }
 
@@ -465,9 +472,9 @@ footer {
 
   padding: 2rem;
 
-  background: #000;
+  background: #be1558;
 
-  border-top: 4px solid orange;
+  border-top: 4px solid #fff;
 
 }
 
